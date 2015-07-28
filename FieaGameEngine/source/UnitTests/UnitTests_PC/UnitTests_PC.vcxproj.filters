@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{015374b7-723f-46d8-9094-8d9d93d2da98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87c5f952-afe8-4e30-9ed2-4e701438ff51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{408c4c2f-d694-495c-b732-24e6703eb125}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Main.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FooTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SListTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VectorTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StackTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HashMapTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DatumTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ScopeTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AttributedFooTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="XmlParseMasterTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FactoryTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EntityTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SectorTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WorldTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ConcurrentEventTest.h">
+      <Filter>Tests</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FooTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SListTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFooTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParseMasterTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SectorTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSubscriberFoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParseHelperFoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcurrentEventSubscriberFoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcurrentEventTest.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XmlParseHelperFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSubscriberFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentEventSubscriberFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
